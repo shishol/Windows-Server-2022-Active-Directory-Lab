@@ -1,4 +1,17 @@
 # Windows Sever 2022 Active Directory Lab
-The currect repository contains my experience with cybersecurity, specifically, Cloud(Active Directory) and Windows Server homelab projects.
 
-## Skills Utitilized
+My process of designing and impltementing a multi-server, multi-forest, Active Directory environment using Windows Server to simulate infrastructure management.
+
+## Key Technologies and Skills:
+
+- Active Directory Domain Services
+- DNS
+- DFS Namespace
+- DFS Replication
+- SMB
+- NFS
+- NTFS Permissions
+- File Auditing
+- PowerShell
+- Read-Only Domain Controllers
+- Trust Configuration
