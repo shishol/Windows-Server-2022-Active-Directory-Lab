@@ -36,7 +36,10 @@ Forest 2: DomainY.com
 - Member Server
 - DFS Replication Partner
 
-Configured two-way trust relationships between forests.
+### Trust Relationships
+
+- Configured bidirectional forest trust between DomainX.com and DomainY.com
+- Verified cross-forest authentication and resource access
 
 ## Skills Demonstrated
 
