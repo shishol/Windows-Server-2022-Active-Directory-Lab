@@ -1,0 +1,51 @@
+# DFS Replication
+
+## Objective
+
+Implement Distributed File System (DFS) Replication to provide redundancy and synchronization of shared resources between multiple servers.
+
+## Environment
+
+- SERVER1
+- SERVER2
+- Windows Server 2022
+- Active Directory Domain
+
+## Tasks Performed
+
+- Installed DFS Replication role services
+- Created replication groups
+- Added replicated folders
+- Configured replication members
+- Verified replication topology
+- Tested synchronization between servers
+
+## Implementation
+
+A DFS Replication group was configured to synchronize shared data between SERVER1 and SERVER2.
+
+The replication process ensured that file modifications made on one server were automatically propagated to the replication partner.
+
+## Validation
+
+Testing included:
+
+- Creating files on SERVER1 and confirming replication to SERVER2
+- Modifying existing files and verifying updates
+- Reviewing replication status and health
+- Confirming data consistency across both servers
+
+## Benefits
+
+- Improved availability of shared resources
+- Reduced risk of data loss
+- Simplified management of distributed file shares
+- Increased fault tolerance
+
+## Skills Demonstrated
+
+- DFS Replication Administration
+- Windows Server File Services
+- Replication Troubleshooting
+- High Availability Concepts
+- Enterprise Storage Management
