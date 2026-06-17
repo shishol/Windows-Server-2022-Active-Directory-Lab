@@ -1,0 +1,50 @@
+# NTFS Permissions
+
+## Objective
+
+Configure and validate NTFS permissions to control access to files and folders within an Active Directory environment.
+
+# Environment
+
+- Windows Server 2022
+- Active Directory Domain Services
+- Domain Users and Security Groups
+
+# Tasks Performed
+
+- Created shared folders on SERVER1
+- Assigned NTFS permissions to users and groups
+- Configured inherited and explicit permissions
+- Tested access using multiple user accounts
+- Verified permission enforcement through Windows Explorer and command-line tools
+
+# Key Concepts
+
+## Inherited Permissions
+
+Inherited permissions were used to simplify administration and maintain consistent access controls throughout the folder hierarchy.
+
+## Explicit Permissions
+
+Explicit permissions were applied when unique access requirements existed for specific folders or users.
+
+## Principle of Least Privilege
+
+Access was granted only to the resources required for a user’s role, reducing unnecessary permissions and improving security.
+
+## Validation
+
+Permission configurations were tested by:
+
+- Logging in as different users
+- Attempting authorized file access
+- Attempting unauthorized file access
+- Verifying successful and denied operations
+
+## Skills Demonstrated
+
+- Windows File System Security
+- Access Control Management
+- Active Directory Group-Based Permissions
+- Least Privilege Implementation
+- Permission Troubleshooting
