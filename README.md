@@ -1,6 +1,6 @@
-# Windows Sever 2022 Active Directory Lab
+# Windows Sever Active Directory Lab
 
-My process of designing and impltementing a multi-server, multi-forest, Active Directory environment using Windows Server to simulate infrastructure management.
+My process of designing and impltementing a multi-server, multi-forest, Active Directory environment using Windows Server to simulate infrastructure management. I omitted client workstations from this specific lab as they were not required for this exercise.
 
 ## Key Technologies:
 
