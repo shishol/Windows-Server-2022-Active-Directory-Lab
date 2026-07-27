@@ -1,0 +1,48 @@
+# Active Directory Sites and Services
+
+## Objective
+
+Configure Active Directory Sites and Services to represent physical network locations and optimize directory replication.
+
+## Tasks Performed
+
+- Created Active Directory sites
+- Configured subnet objects
+- Associated subnets with sites
+- Created and configured site link
+- Examined replication topology between sites
+
+## Implementation
+
+Sites were configured to simulate geographically distributed network locations.
+
+Subnet objects were created and linked to their corresponding sites to allow domain controllers and clients to determine the closest authentication source.
+
+Site links were configured to define replication paths between locations.
+
+## Key Concepts
+
+### Sites
+
+Sites represent physical network locations within an Active Directory environment.
+
+### Subnets
+
+Subnets map client IP ranges to specific sites.
+
+### Site Links
+
+Site links define replication paths and schedules between sites.
+
+## Benefits
+
+- Reduced replication traffic
+- Improved authentication efficiency
+- Better representation of enterprise network topology
+
+## Skills Demonstrated
+
+- Active Directory Sites and Services
+- Replication Management
+- Network Topology Design
+- Active Directory Infrastructure Administration
