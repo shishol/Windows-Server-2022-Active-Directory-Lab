@@ -79,13 +79,13 @@ The project demonstrates core Windows Server administration skills commonly perf
 - Implemented File Server Resource Manager (FSRM)
 - Configured storage quotas and file screens
 
+---
+
 ## Repository Structure
 
-```
 architecture/
 active-directory/
 file-services/
-```
 
 ## Skills Demonstrated
 
