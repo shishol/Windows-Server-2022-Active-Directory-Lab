@@ -1,81 +1,97 @@
-# Windows Sever Active Directory Lab
+# Windows Server Active Directory Lab
 
-My process of designing and impltementing a multi-server, multi-forest, Active Directory environment using Windows Server to simulate infrastructure management. I omitted client workstations from this specific lab as they were not required for this exercise.
+## Overview
 
-## Key Technologies:
+This repository documents the design, implementation, and administration of an enterprise-style Windows Server environment using Active Directory Domain Services (AD DS). The lab simulates a multi-domain infrastructure by deploying two independent Active Directory forests, configuring identity services, and implementing enterprise file services.
 
+The project demonstrates core Windows Server administration skills commonly performed by System Administrators, IT Support Specialists, and Infrastructure Engineers.
+
+## Lab Environment
+
+### SERVER1
+
+- Windows Server 2025
+- Domain Controller
+- DomainX.com
+- DNS Server
+- Global Catalog
+- DFS Namespace Host
+
+### SERVER2
+
+- Windows Server 2025
+- Domain Controller
+- DomainY.com
+- DFS Replication Partner
+
+### MEMBER1
+
+* Windows Server 2025
+* Member Server
+
+### USER1
+
+* Windows 11 Pro
+* Domain-Joined Client
+
+## Technologies Used
+
+- Windows Server 2008
+- Windows Server 2016
+- Windows Server 2022
+- Windows Server 2025
+- Windows 11 Pro
 - Active Directory Domain Services
 - DNS
-- DFS Namespace
+- Active Directory Users and Computers
+- Active Directory Sites and Services
+- Active Directory Domains and Trusts
+- DFS Namespaces
 - DFS Replication
 - SMB
 - NFS
 - NTFS Permissions
-- File Auditing
+- File Server Resource Manager (FSRM)
+- Group Policy
+- Event Viewer
 - PowerShell
-- Read-Only Domain Controllers
 
-## Lab Environment
-
-### Active Directory Infrastructure/Forests
-
-Forest 1: DomainX.com
-
-Forest 2: DomainY.com
-
-### Servers
-
-**SERVER1**
-- Domain Controller for DomainX.com
-- Root Forest Domain Controller
-- DNS Server
-- DFS Namespace Host
-
-**SERVER2**
-- Domain Controller for DomainY.com
-- Member Server
-- DFS Replication Partner
-
-### Trust Relationships
-
-- Configured bidirectional forest trust between DomainX.com and DomainY.com
-- Verified cross-forest authentication and resource access
-
-## Skills Demonstrated
+## Project Highlights
 
 ### Active Directory
 
-- Installed and configured AD DS
-- Raised forest and domain functional levels
-- Created and managed Organizational Units
-- Managed users, groups, and computer objects
-- Configured Global Catalog services
-- Configured Sites and Services
-- Created subnet and site-link objects
-- Enabled Active Directory Recycle Bin
-- Restored deleted directory objects
-
-### Identity and Authentication
-
-- Configured inter-forest trust relationships
-- Managed Read-Only Domain Controllers (RODCs)
-- Configured password replication policies
+- Deployed and configured Active Directory Domain Services
+- Created Organizational Units, users, groups, and computer objects
+- Raised domain and forest functional levels
+- Configured forest trust relationships
+- Configured Sites, Subnets, and Site Links
+- Configured the Global Catalog
+- Enabled the Active Directory Recycle Bin
+- Prestaged and administered a Read-Only Domain Controller (RODC)
 
 ### File Services
 
 - Configured NTFS permissions
-- Implemented SMB shares
-- Implemented NFS shares
-- Configured DFS Namespaces
+- Enabled file auditing
+- Configured SMB and NFS shared folders
+- Implemented DFS Namespaces
 - Configured DFS Replication
+- Implemented File Server Resource Manager (FSRM)
+- Configured storage quotas and file screens
 
-### Security
+## Repository Structure
 
-- Implemented file auditing
-- Configured user and folder quotas
-- Created file screens using FSRM
+architecture/
+active-directory/
+file-services/
 
-### Automation
+## Skills Demonstrated
 
-- Used PowerShell for Active Directory administration
-- Automated common administrative tasks
+- Windows Server Administration
+- Active Directory Administration
+- Identity and Access Management
+- Enterprise File Services
+- Windows Security
+- File System Administration
+- Troubleshooting
+- PowerShell Administration
