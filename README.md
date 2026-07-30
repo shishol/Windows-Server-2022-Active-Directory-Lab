@@ -81,9 +81,11 @@ The project demonstrates core Windows Server administration skills commonly perf
 
 ## Repository Structure
 
+```
 architecture/
 active-directory/
 file-services/
+```
 
 ## Skills Demonstrated
 
