@@ -26,13 +26,13 @@ The project demonstrates core Windows Server administration skills commonly perf
 
 ### MEMBER1
 
-* Windows Server 2025
-* Member Server
+- Windows Server 2025
+- Member Server (DomainX.com)
 
 ### USER1
 
-* Windows 11 Pro
-* Domain-Joined Client
+- Windows 11 Pro
+- Domain-Joined Client
 
 ## Technologies Used
 
