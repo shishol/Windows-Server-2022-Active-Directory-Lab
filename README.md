@@ -36,9 +36,6 @@ The project demonstrates core Windows Server administration skills commonly perf
 
 ## Technologies Used
 
-- Windows Server 2008
-- Windows Server 2016
-- Windows Server 2022
 - Windows Server 2025
 - Windows 11 Pro
 - Active Directory Domain Services
