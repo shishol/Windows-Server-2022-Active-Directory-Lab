@@ -52,7 +52,7 @@ Created the following:
 
 <img width="609" height="427" alt="Screenshot 2026-07-16 071925" src="https://github.com/user-attachments/assets/91cda058-050a-40e5-9c02-e95a39c49393" />
 
-### 2. Created a template purposed for easier user creation in large organizations.
+### 2. Created a template purposed for easier user creation in large organizations. Enabled "change at next logon" to make sure each new user sets a unique password after they receive their account.
 
 Created the following under "domainX.com/Marketing":
 
@@ -60,6 +60,23 @@ Created the following under "domainX.com/Marketing":
 
 <img width="614" height="424" alt="Screenshot 2026-07-16 072507" src="https://github.com/user-attachments/assets/b21cc882-5afd-48f6-8f7f-fd44c855cabd" />
 
+### 3. Configured "Marketing Template" to be a member of "Domain Users" of domainX.com and "Marketing-G".
+
+<img width="612" height="467" alt="Screenshot 2026-07-16 072726" src="https://github.com/user-attachments/assets/7482508b-1f24-4331-ac43-4bd676442b68" />
+
+### 4. Created user from "Marketing Template"
+
+Created user accounts for the following new hires:
+
+- Bob Burtt
+- Mary Stewart
+- John Lavigne
+
+Created a computer object to assign permissions to a new office PC:
+
+- MKTG-PC-01
+
+<img width="615" height="426" alt="Screenshot 2026-07-16 073236" src="https://github.com/user-attachments/assets/03398a3b-472b-4af8-93eb-4f9c05efb90a" />
 
 
 
