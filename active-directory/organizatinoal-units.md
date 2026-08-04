@@ -78,6 +78,11 @@ Created a computer object to assign permissions to a new office PC:
 
 <img width="615" height="426" alt="Screenshot 2026-07-16 073236" src="https://github.com/user-attachments/assets/03398a3b-472b-4af8-93eb-4f9c05efb90a" />
 
+### 5. Final checks
+
+Mde sure that users could fully change the password on their first time logging in.
+
+<img width="305" height="209" alt="Screenshot 2026-07-16 073122" src="https://github.com/user-attachments/assets/66b01c41-df6d-4656-aa06-2ed30f266752" />
 
 
 
