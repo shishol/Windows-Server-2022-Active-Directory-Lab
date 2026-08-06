@@ -57,3 +57,10 @@ Benefits include:
 - Identity Security
 - Password Replication Policies
 - RODC Deployment and Management
+
+## Lab Steps
+
+### 1. Pre-Staged the RODC Computer Account
+
+After creating the sites in "sites-and-services.md" I created a pre-staged Read-Only Domain Controller within "ParisSite"
+
