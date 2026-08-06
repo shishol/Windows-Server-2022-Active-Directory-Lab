@@ -6,6 +6,10 @@ This repository documents the design, implementation, and administration of an e
 
 The project demonstrates core Windows Server administration skills commonly performed by System Administrators, IT Support Specialists, and Infrastructure Engineers.
 
+## Screenshots and Lab steps
+
+In order to reduce clutter and to make reading through the repository flow nicer, I excluded a few screenshots that consisted of unnecessary details. These details could be "click next" and "select this server". These steps are summarized in a couple sentences instead.
+
 ## Lab Environment
 
 ### SERVER1
