@@ -70,7 +70,7 @@ After creating the sites in "sites-and-services.md" I configured a pre-staged Re
 
 ### 2. Domain Controller options
 
-After selecting Read-Only Domain Controller, the DNS Server was also selected.
+After selecting Read-Only Domain Controller, the DNS Server option was also selected.
 
 <img width="613" height="428" alt="Screenshot 2026-07-16 074447" src="https://github.com/user-attachments/assets/c289660f-bc65-4be0-8d76-f0bdca7dff28" />
 
