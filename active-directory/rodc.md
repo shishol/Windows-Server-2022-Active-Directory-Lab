@@ -62,5 +62,21 @@ Benefits include:
 
 ### 1. Pre-Staged the RODC Computer Account
 
-After creating the sites in "sites-and-services.md" I created a pre-staged Read-Only Domain Controller within "ParisSite"
+After creating the sites in "sites-and-services.md" I configured a pre-staged Read-Only Domain Controller within "ParisSite"
 
+<img width="613" height="432" alt="Screenshot 2026-07-16 073654" src="https://github.com/user-attachments/assets/b0d61099-7dcf-4eee-8786-48740c958363" />
+<img width="407" height="394" alt="Screenshot 2026-07-16 073707" src="https://github.com/user-attachments/assets/53678904-1c85-448a-800e-e685a53c88a8" />
+<img width="408" height="396" alt="Screenshot 2026-07-16 073736" src="https://github.com/user-attachments/assets/87090e09-922c-4080-a8cf-6528dda2194c" />
+
+### 2. Domain Controller options
+
+After selecting Read-Only Domain Controller, the DNS Server was also selected.
+
+<img width="613" height="428" alt="Screenshot 2026-07-16 074447" src="https://github.com/user-attachments/assets/c289660f-bc65-4be0-8d76-f0bdca7dff28" />
+
+
+### 3. Configured Password Replication Policy
+
+Reviewed and verified which accounts were allowed to cache passwords.
+
+<img width="614" height="429" alt="Screenshot 2026-07-16 074641" src="https://github.com/user-attachments/assets/e017618a-420b-439d-8b33-60526de1c2b7" />
