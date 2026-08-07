@@ -83,5 +83,19 @@ Reviewed and verified which accounts were allowed to cache passwords.
 
 ### 4. Verification
 
+The first step I took to confirm the RODC's status was to check through PowerShell.
 
+<img width="619" height="347" alt="Screenshot 2026-07-25 204315" src="https://github.com/user-attachments/assets/e909855a-1d97-44d8-8817-eb511d88d78a" />
 
+Shortly after, I checked within Active Directory Users and Computers to view its "DC Type" in properties.
+
+<img width="556" height="389" alt="Screenshot 2026-08-06 112303" src="https://github.com/user-attachments/assets/1ef50ffa-f87b-4334-bdb7-f3135c59b333" />
+<img width="341" height="389" alt="Screenshot 2026-08-06 112440" src="https://github.com/user-attachments/assets/03535cc5-cf76-4694-a9a1-c47685048e32" />
+
+Confirmed it was within the correct site in Active Directory Sites and Services
+
+<img width="554" height="388" alt="Screenshot 2026-08-06 112527" src="https://github.com/user-attachments/assets/7786844e-aeb8-422b-9629-6d28fc862a4b" />
+
+And finally, I verified all of the above through ADAC.
+
+<img width="1101" height="593" alt="Screenshot 2026-08-06 112633" src="https://github.com/user-attachments/assets/5dac3d75-c3e1-427b-8e35-1dc472925c98" />
