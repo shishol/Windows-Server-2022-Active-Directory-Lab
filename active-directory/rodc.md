@@ -80,3 +80,8 @@ After selecting Read-Only Domain Controller, the DNS Server option was also sele
 Reviewed and verified which accounts were allowed to cache passwords.
 
 <img width="614" height="429" alt="Screenshot 2026-07-16 074641" src="https://github.com/user-attachments/assets/e017618a-420b-439d-8b33-60526de1c2b7" />
+
+### 4. Verification
+
+
+
